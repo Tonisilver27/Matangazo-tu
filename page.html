@@ -1,0 +1,155 @@
+page.html<!DOCTYPE html>
+<html lang="sw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MrTN Matangazo</title>
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  font-family: "Segoe UI", Arial, sans-serif;
+  background:#f8fafc;
+  color:#1e293b;
+  line-height:1.6;
+}
+header{
+  background:linear-gradient(90deg, #2563eb, #7c3aed);
+  color:white;
+  padding:40px 20px;
+  text-align:center;
+}
+header h1{
+  font-size:32px;
+  margin-bottom:8px;
+}
+header p{
+  font-size:16px;
+  opacity:0.9;
+}
+.container{
+  max-width:900px;
+  margin:40px auto;
+  padding:0 20px;
+}
+.section-title{
+  font-size:24px;
+  margin-bottom:20px;
+  color:#1e293b;
+}
+.ads-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+  gap:20px;
+}
+.ad-card{
+  background:white;
+  border-radius:12px;
+  padding:20px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+  transition:0.2s;
+}
+.ad-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 8px 20px rgba(0,0,0,0.12);
+}
+.ad-card h3{
+  color:#2563eb;
+  margin-bottom:10px;
+  font-size:18px;
+}
+.ad-card p{
+  color:#475569;
+  font-size:15px;
+  margin-bottom:12px;
+}
+.btn{
+  display:inline-block;
+  padding:10px 18px;
+  background:#2563eb;
+  color:white;
+  text-decoration:none;
+  border-radius:8px;
+  font-weight:600;
+  font-size:14px;
+}
+.btn:hover{
+  background:#1d4ed8;
+}
+.contact{
+  text-align:center;
+  margin:60px 0 40px;
+  padding:30px 20px;
+  background:white;
+  border-radius:12px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+.contact h2{
+  margin-bottom:12px;
+}
+footer{
+  text-align:center;
+  padding:20px;
+  color:#64748b;
+  font-size:14px;
+}
+@media(max-width:600px){
+  header h1{font-size:24px;}
+  .section-title{font-size:20px;}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>MrTN Matangazo</h1>
+  <p>Jukwaa la matangazo na fursa za biashara Tanzania</p>
+</header>
+
+<div class="container">
+  <h2 class="section-title">Matangazo Mapya</h2>
+  
+  <div class="ads-grid">
+    
+    <div class="ad-card">
+      <h3>💻 Website Design</h3>
+      <p>Natengeneza website za biashara, blog, na portfolio kwa bei nafuu. Responsive na haraka.</p>
+      <a href="https://wa.me/255694452091" class="btn">Piga WhatsApp</a>
+    </div>
+
+    <div class="ad-card">
+      <h3>📱 Social Media Management</h3>
+      <p>Nakuendeshea Instagram, Facebook, TikTok ya biashara yako. Post, design, na ads.</p>
+      <a href="https://wa.me/255694452091" class="btn">Wasiliana Nami</a>
+    </div>
+
+    <div class="ad-card">
+      <h3>📊 Mafunzo ya Biashara Online</h3>
+      <p>Jifunze jinsi ya kuanza biashara online na kupata pesa mtandaoni. Mafunzo ya vitendo.</p>
+      <a href="https://wa.me/255694452091" class="btn">Jisajili Sasa</a>
+    </div>
+
+    <div class="ad-card">
+      <h3>🎨 Logo & Graphic Design</h3>
+      <p>Logo, poster, banner za kitaalamu kwa biashara yako. Delivery haraka.</p>
+      <a href="https://wa.me/255694452091" class="btn">Agiza Sasa</a>
+    </div>
+
+  </div>
+
+  <div class="contact">
+    <h2>Unataka Tangazo Lako Lionekane Hapa?</h2>
+    <p>Nitume ujumbe WhatsApp kwa <strong>255694452091</strong></p>
+    <p style="margin-top:12px;">Bei nafuu, watu wengi wataona tangazo lako.</p>
+  </div>
+</div>
+
+<footer>
+  © 2026 MrTN Matangazo. Haki zote zimehifadhiwa.
+</footer>
+
+</body>
+</html>
